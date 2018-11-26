@@ -1,0 +1,89 @@
+body {
+  background-color: #e6ecf0;
+}
+.header {
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+  opacity: 0.5;
+  display: flex; /* flexboxを使う宣言みたいなやつ */
+  height: 60px;
+  justify-content: space-evenly; /* 子要素をflexboxによりx軸方向に均等に配置する */
+  align-items: center;  /* 子要素をflexboxによりY軸中央に配置する */
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  top: 0;
+}
+
+#right-header-content {
+  display: flex;
+}
+
+.nav-icon {
+  height: 30px;
+  width: 180px;
+}
+
+#buttons {
+  display: flex;
+}
+
+.button {
+  display: inline-block;
+  width: 90px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: #afa58d;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+input::placeholder {
+  font-size: 16px;
+  text-align: center;
+  font-family: FontAwesome;
+}
+
+#contents {
+  background-color: gray;
+  width: 960px;
+  padding-top: 60px;
+  margin:0 auto;
+}
+
+.contents-container {
+  margin-top: 20px;
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  /* 子要素をflexboxによりY軸中央に配置する */
+}
+
+.contents-child {
+  width: 320px;
+  height: 80px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+.footer {
+  background-color: yellow;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
